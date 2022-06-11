@@ -1,0 +1,860 @@
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../pinmux.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/blinky" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pinmux.d_raw"  "../pinmux.c"
+Finished building: "../pinmux.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/blinky" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/blinky" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_ccs.d_raw"  "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+Finished building: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+ 
+Building file: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/gpio_if.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/blinky" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="gpio_if.d_raw"  "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/gpio_if.c"
+Finished building: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/gpio_if.c"
+ 
+Building target: "blinky.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"blinky.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="blinky_linkInfo.xml" --rom_model -o "blinky.out" "./gpio_if.obj" "./main.obj" "./pinmux.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "blinky.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin blinky.out blinky.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'blinky.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'blinky.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'blinky.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'blinky.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/blinky" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "blinky.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"blinky.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="blinky_linkInfo.xml" --rom_model -o "blinky.out" "./gpio_if.obj" "./main.obj" "./pinmux.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "blinky.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin blinky.out blinky.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/blinky" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "blinky.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"blinky.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="blinky_linkInfo.xml" --rom_model -o "blinky.out" "./gpio_if.obj" "./main.obj" "./pinmux.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "blinky.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin blinky.out blinky.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project blinky ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/blinky" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "blinky.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"blinky.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="blinky_linkInfo.xml" --rom_model -o "blinky.out" "./gpio_if.obj" "./main.obj" "./pinmux.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "blinky.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin blinky.out blinky.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uart_demo ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../pinmux.c"
+Invoking: ARM Compiler
+"C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=none -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/uart_demo" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/include" --define=ccs --define=cc3200 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pinmux.d_raw"  "../pinmux.c"
+Finished building: "../pinmux.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=none -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/uart_demo" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/include" --define=ccs --define=cc3200 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=none -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/uart_demo" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/include" --define=ccs --define=cc3200 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_ccs.d_raw"  "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+Finished building: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+ 
+Building file: "../uart_if.c"
+Invoking: ARM Compiler
+"C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=none -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/uart_demo" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/include" --define=ccs --define=cc3200 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart_if.d_raw"  "../uart_if.c"
+Finished building: "../uart_if.c"
+ 
+Building target: "uart_demo.out"
+Invoking: ARM Linker
+"C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=none -me -Ooff --define=ccs --define=cc3200 -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"uart_demo.map" --heap_size=0x800 --stack_size=0x100 -i"C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/lib" -i"C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uart_demo_linkInfo.xml" --rom_model -o "uart_demo.out" "./main.obj" "./pinmux.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "uart_demo.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin uart_demo.out uart_demo.bin C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/bin/armofd C:/ti.old/ccsv8/tools/compiler/ti-cgt-arm_18.1.6.LTS/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uart_demo ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uart_demo.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uart_demo ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uart_demo.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uart_demo ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'uart_demo.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "blinky.bin"  "blinky.out" 
+DEL /F "gpio_if.obj" "main.obj" "pinmux.obj" "startup_ccs.obj" 
+DEL /F "gpio_if.d" "main.d" "pinmux.d" "startup_ccs.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'main.obj' failed
+"../main.c", line 63: fatal error #1965: cannot open source file "pinmux.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+Building file: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="startup_ccs.d_raw"  "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+Finished building: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/startup_ccs.c"
+ 
+Building file: "../pin_mux_config.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pin_mux_config.d_raw"  "../pin_mux_config.c"
+Finished building: "../pin_mux_config.c"
+ 
+Building file: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/gpio_if.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="gpio_if.d_raw"  "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/gpio_if.c"
+Finished building: "C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/gpio_if.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ Message   ./main.obj      
+ Report    ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab1.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ Message   ./main.obj      
+ Report    ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+ 
+error #10010: errors encountered during linking; "Lab1.out" not built
+>> Compilation failure
+makefile:145: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+gmake: *** [all] Error 2
+makefile:141: recipe for target 'all' failed
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ Message   ./main.obj      
+ Report    ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+ 
+error #10010: errors encountered during linking; "Lab1.out" not built
+>> Compilation failure
+makefile:145: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ Message   ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab1.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ ClearTerm ./main.obj      
+ InitTerm  ./main.obj      
+ Message   ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+ 
+error #10010: errors encountered during linking; "Lab1.out" not built
+>> Compilation failure
+makefile:145: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ ClearTerm ./main.obj      
+ InitTerm  ./main.obj      
+ Message   ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab1.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../uart_if.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart_if.d_raw"  "../uart_if.c"
+Finished building: "../uart_if.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 283: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+"../main.c", line 143: warning #179-D: function "DisplayBanner" was declared but never referenced
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'Lab1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 281: warning #112-D: statement is unreachable
+"../main.c", line 143: warning #179-D: function "DisplayBanner" was declared but never referenced
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 282: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 275: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 275: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 273: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 271: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 274: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'main.obj' failed
+"../main.c", line 218: error #29: expected an expression
+"../main.c", line 218: error #20: identifier "i" is undefined
+"../main.c", line 223: warning #225-D: function "CHECK_BIT" declared implicitly
+"../main.c", line 294: warning #112-D: statement is unreachable
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 223: warning #225-D: function "CHECK_BIT" declared implicitly
+"../main.c", line 294: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ CHECK_BIT ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab1.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ CHECK_BIT ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab1.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ CHECK_BIT ./main.obj      
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab1.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab1.out' failed
+gmake[1]: *** [Lab1.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'main.obj' failed
+"../main.c", line 291: error #20: identifier "sw2" is undefined
+"../main.c", line 313: error #20: identifier "sw3" is undefined
+"../main.c", line 319: error #171: expected a declaration
+"../main.c", line 320: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'main.obj' failed
+"../main.c", line 217: error #29: expected an expression
+"../main.c", line 217: error #20: identifier "i" is undefined
+"../main.c", line 291: warning #112-D: statement is unreachable
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab1 ****
+
+"C:\\ti.old\\ccsv8\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --include_path="C:/Users/paikunal/Desktop/workspace_v7_cc3200/Lab1" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/inc/" --include_path="C:/ti/CC3200SDK_1.5.0/cc3200-sdk/example/common/" --include_path="C:/ti.old/include" --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 292: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "Lab1.out"
+Invoking: ARM Linker
+"C:/ti.old/bin/armcl" -mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model -o "Lab1.out" "./gpio_if.obj" "./main.obj" "./pin_mux_config.obj" "./startup_ccs.obj" "./uart_if.obj" "../cc3200v1p32.cmd"  -l"C:/ti/CC3200SDK_1.5.0/cc3200-sdk/driverlib/ccs/Release/driverlib.a" -llibc.a 
+<Linking>
+Finished building target: "Lab1.out"
+ 
+C:/ti.old/ccsv8/utils/tiobj2bin/tiobj2bin Lab1.out Lab1.bin C:/ti.old/bin/armofd C:/ti.old/bin/armhex C:/ti.old/ccsv8/utils/tiobj2bin/mkhex4bin
+ 
+
+**** Build Finished ****

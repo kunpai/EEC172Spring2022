@@ -1,0 +1,1 @@
+-mv7M4 --code_state=16 -me -Ooff --define=ccs --define=cc3200 --define=NON_NETWORK -g --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab1.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti.old/lib" -i"C:/ti.old/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab1_linkInfo.xml" --rom_model 
